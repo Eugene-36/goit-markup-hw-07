@@ -9,9 +9,9 @@ html {
 }
 
 body{
-background-color: var(--white-color);
+background-color: $white-color;
 color:#757575 ;
-font-family: 'roboto, raleway', sans-serif;
+font-family: 'Roboto, sans-serif';
 letter-spacing: 0.03em;
 margin: 0;
 }

@@ -46,9 +46,9 @@ html {
 }
 
 body {
-  background-color: var(--white-color);
+  background-color: #FFFFFF;
   color: #757575;
-  font-family: 'roboto, raleway', sans-serif;
+  font-family: 'Roboto, sans-serif';
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -275,7 +275,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #2196F3;
 }
 
 .checkbox:checked + .checkbox-icon {
