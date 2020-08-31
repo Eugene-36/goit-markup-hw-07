@@ -48,7 +48,7 @@ html {
 body {
   background-color: #FFFFFF;
   color: #757575;
-  font-family: 'roboto, sans-serif';
+  font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
 }
