@@ -2,35 +2,35 @@
   font-family: "raleway";
   font-style: bold;
   font-weight: 700;
-  src: url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff") format("woff");
+  src: url("../../fonts/raleway/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/raleway/raleway-v17-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "roboto";
   font-style: medium;
   font-weight: 500;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff");
 }
 
 @font-face {
   font-family: "roboto";
   font-style: bold;
   font-weight: 700;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
   font-family: "roboto";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff");
+  src: url("../../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff");
 }
 
 html {
@@ -75,7 +75,6 @@ body {
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
-  font-family: 'roboto', sans-serif;
   line-height: 1.87;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -97,19 +96,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-}
-
-.logo {
-  margin-right: 70px;
-  font-size: 26px;
-  line-height: 1.19;
-  color: #2196F3;
-  font-family: Raleway,cursive;
-  font-weight: bold;
-}
-
-.color-logo {
-  color: #212121;
 }
 
 .backdrop {
@@ -549,6 +535,18 @@ a.link.current.link-underline {
 .text-light:hover svg,
 .text-light:focus svg {
   fill: #2196F3;
+}
+
+.logo {
+  margin-right: 70px;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196F3;
+  font-weight: bold;
+}
+
+.color-logo {
+  color: #212121;
 }
 
 .section-hero {

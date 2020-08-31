@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #F5F4FA;
   color: #757575;
-  font-family: roboto, sans-serif;
+  font-family: 'roboto', sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -41,7 +41,6 @@ body {
   letter-spacing: 0.06em;
   font-weight: 700;
   font-size: 16px;
-  font-family: 'roboto', sans-serif;
   line-height: 1.87;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -70,7 +69,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: #2196F3;
-  font-family: Raleway,cursive;
   font-weight: bold;
 }
 
@@ -110,20 +108,10 @@ body {
           align-items: center;
 }
 
-.link-underline {
-  font-style: normal;
-}
-
 .site-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.link-underline {
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.7;
 }
 
 .list {
@@ -352,7 +340,6 @@ a.link.current.link-underline {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  font-family: Roboto;
 }
 
 /* Добавляет интервал между кнопками и сновным контентом */
@@ -420,12 +407,12 @@ a.link.current.link-underline {
 
 .flex-element img {
   display: block;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #2c0f0f;
 }
 
 .flex-border {
   display: block;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #2c0f0f;
   padding-bottom: 20px;
 }
 

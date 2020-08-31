@@ -1,18 +1,16 @@
-@import "./utils/font";
-@import './utils/variabals' ;
+@import './utils/font';
 @import './base/common' ;
-@import './utils/mixin' ;
+@import './utils/variabals' ;
 @import './components/button' ;
-@import './components/logo' ;
-@import './components/modal';
 @import './components/social';
 @import './layout/page-header' ;
-@import './layout/container';
+@import './components/logo' ;
 @import './layout/section-hero';
 @import './layout/section-qualities';
 @import './layout/section-what-we-doing';
 @import './layout/permanent-clints';
 @import './layout/team';
+@import './components/modal';
 @import './layout/footer';
 
 
