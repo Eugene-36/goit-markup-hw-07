@@ -1,33 +1,33 @@
 @font-face {
-  font-family: "Raleway";
+  font-family: "raleway";
   font-style: bold;
   font-weight: 700;
   src: url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway/raleway-v17-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: medium;
   font-weight: 500;
   src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: bold;
   font-weight: 700;
   src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "roboto";
   font-style: normal;
   font-weight: 900;
   src: url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff");
@@ -48,7 +48,7 @@ html {
 body {
   background-color: #FFFFFF;
   color: #757575;
-  font-family: 'Roboto, sans-serif';
+  font-family: 'roboto, sans-serif';
   letter-spacing: 0.03em;
   margin: 0;
 }
