@@ -13,7 +13,7 @@ html {
 body {
   background-color: var(--white-color);
   color: #757575;
-  font-family: 'roboto', sans-serif;
+  font-family: 'roboto, raleway', sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
 }
