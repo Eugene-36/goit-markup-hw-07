@@ -2,7 +2,7 @@
   font-family: "Raleway";
   font-style: bold;
   font-weight: 700;
-  src: url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff");
+  src: url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-700.woff") format("woff");
 }
 
 @font-face {
@@ -448,7 +448,7 @@ a.link.current.link-underline {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFFFF;
-  background: #F5F4FA;
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .constant-client {
