@@ -13,7 +13,7 @@ html {
 
 body {
   color: #757575;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -69,6 +69,7 @@ body {
   line-height: 1.19;
   color: #2196F3;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .color-logo {
