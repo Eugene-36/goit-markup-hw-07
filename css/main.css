@@ -202,11 +202,6 @@ a.link.current.link-underline {
 }
 
 .site-nav .link {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.site-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -214,6 +209,8 @@ a.link.current.link-underline {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
 }
 
