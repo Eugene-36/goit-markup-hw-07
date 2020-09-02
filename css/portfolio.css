@@ -1,4 +1,39 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/raleway-v17-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: medium;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -39,6 +74,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.06em;
   font-weight: 700;
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   -webkit-box-align: center;
@@ -61,6 +97,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  text-decoration: none;
 }
 
 .logo {
@@ -68,8 +105,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: #2196F3;
-  font-weight: bold;
   text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
 }
 
 .color-logo {
@@ -177,6 +215,7 @@ a.link.current.link-underline {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  text-decoration: none;
 }
 
 .nav-info > .contact-info {
@@ -230,6 +269,8 @@ a.link.current.link-underline {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #757575;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .contact-info svg {
@@ -335,6 +376,7 @@ a.link.current.link-underline {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+  font-family: Roboto;
   /* margin-bottom: 8px; */
   color: #212121;
   font-weight: 500;
@@ -407,12 +449,12 @@ a.link.current.link-underline {
 
 .flex-element img {
   display: block;
-  border: 1px solid #2c0f0f;
+  border: 1px solid #EEEEEE;
 }
 
 .flex-border {
   display: block;
-  border: 1px solid #2c0f0f;
+  border: 1px solid #EEEEEE;
   padding-bottom: 20px;
 }
 
@@ -490,6 +532,8 @@ a.link.current.link-underline {
 
 .contact-info-new .detailes a {
   color: #757575;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .contact-info-new .location a {
@@ -619,6 +663,16 @@ a.contact-info-color.link-underline:focus {
   padding-bottom: 15px;
   padding-left: 10px;
   margin-right: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.25;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.03em;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
